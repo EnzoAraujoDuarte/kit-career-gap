@@ -36,7 +36,22 @@ As que o autor usa no trabalho, além do que vem no plugin:
 - Para calibrar o olho: [Awwwards](https://www.awwwards.com/websites/) e
   [Mobbin](https://mobbin.com/). Detalhes em [`conceitos.md`](conceitos.md).
 
-## Instalar
+## Instalar com um comando
+
+Cole no terminal (macOS, Linux ou WSL) e aperte Enter. O instalador lista o que existe, pergunta
+os números que você quer e roda só os comandos `claude plugin …` correspondentes. Sem senha, sem
+mexer nos seus arquivos; o código está em [`install.sh`](install.sh).
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EnzoAraujoDuarte/kit-career-gap/main/install.sh)
+```
+
+Ele oferece o kit essencial e, do marketplace oficial e do autor de cada uma, as skills
+superpowers, impeccable, frontend-design e skill-creator. Para ver o que faria sem instalar nada,
+acrescente `--simular`. Se o Claude Code não estiver instalado, ele para e mostra o comando
+oficial.
+
+## Instalar à mão
 
 Precisa do Claude Code instalado e de `jq` (vem no macOS 15 em diante; no Linux, `apt install jq`).
 
@@ -97,6 +112,7 @@ projeto manda.
 │   ├── skills/                       # pr, depurar, decisao, passagem
 │   ├── agents/revisor.md
 │   └── hooks/                        # carrega as regras e o índice de decisões
+├── install.sh                        # o instalador interativo
 ├── decisoes/                         # registros de decisão
 ├── modelos/                          # arquivos iniciais de projeto e o modelo de decisão
 └── conceitos.md                      # de onde vem cada regra, e onde ler mais
