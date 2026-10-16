@@ -1,4 +1,4 @@
-# Testes
+# Testes (teste primeiro e teste de regressão, do Extreme Programming)
 
 Como verificar uma mudança em qualquer projeto. Quanta verificação uma mudança pede depende do risco dela, definido em `trabalhar-com-ia.md`.
 

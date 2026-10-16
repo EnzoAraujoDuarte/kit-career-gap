@@ -31,7 +31,7 @@ Convenções de branch, commit e pull request para qualquer projeto. Branch, com
 | `refactor/extrair-envio-de-email` | `fix/tarefa-482`: só um número |
 | `chore/atualizar-node-22` | `Feature/Novo_Login`: maiúscula e sublinhado |
 
-## Commits
+## Commits (Conventional Commits)
 
 - GIT-06: Use o formato `<tipo>(<escopo opcional>): <descrição>`, com a descrição no imperativo, em minúsculas, sem ponto final e curta o bastante para ler de relance. Exemplo: `fix(login): ignorar sessão expirada`.
 - GIT-07: Use o corpo, quando houver, para explicar por que a mudança foi feita. Marque mudança incompatível com `!` depois do tipo e um rodapé `BREAKING CHANGE:`.
@@ -40,7 +40,7 @@ Convenções de branch, commit e pull request para qualquer projeto. Branch, com
 - GIT-10: Nunca reescreva história compartilhada. Não force push em `main`, `master` ou `develop`. Na sua branch, use `--force-with-lease`, nunca `--force`.
 - GIT-11: Nunca pule os hooks com `--no-verify`. Se um hook falha, conserte a causa.
 
-## Pull requests
+## Pull requests (mudanças pequenas e integração contínua, do Extreme Programming)
 
 - GIT-12: O título do PR segue o formato do commit, com o mesmo tipo da branch.
 - GIT-13: Mantenha cada PR pequeno e com um propósito. Divida um PR que mistura mudanças sem relação ou que não dá para revisar numa sentada.
