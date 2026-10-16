@@ -15,8 +15,26 @@ valem fora do Claude Code.
 | --- | --- |
 | [`essencial`](plugins/essencial/) | Quatro regras carregadas em toda sessão (código, testes, git, trabalhar com IA); as skills `pr`, `depurar`, `decisao` e `passagem`; o agente `revisor`; e a documentação atual das bibliotecas pelo [Context7](https://context7.com) |
 
-Para quem desenha interface, a skill [impeccable](https://github.com/pbakaus/impeccable) é a
-que o próprio Career Gap usa para se auditar; ela se instala à parte.
+As regras não são invenção: design simples, KISS, DRY e YAGNI do Extreme Programming e do
+Programador Pragmático; nomes e comentários do Clean Code; a regra de três de Fowler; padrões
+de projeto só quando o problema aparece; Conventional Commits; configuração fora do código.
+Cada grupo de regras diz de onde vem, e [`conceitos.md`](conceitos.md) junta tudo, com
+arquitetura e produto, e onde ler mais.
+
+## Outras skills e ferramentas que valem
+
+As que o autor usa no trabalho, além do que vem no plugin:
+
+- [impeccable](https://github.com/pbakaus/impeccable): a skill de design com que o Career Gap
+  se audita (contraste, hierarquia, estados, responsivo, clichês de interface gerada).
+- [superpowers](https://github.com/obra/superpowers): biblioteca de skills e método de trabalho,
+  com brainstorming antes de codar, TDD e depuração sistemática.
+- [Skills da Anthropic](https://github.com/anthropics/skills): `frontend-design`, `skill-creator`
+  e as de documento.
+- [Marketplace oficial](https://github.com/anthropics/claude-plugins-official): plugins mantidos
+  pela Anthropic, instalados do mesmo jeito que este kit.
+- Para calibrar o olho: [Awwwards](https://www.awwwards.com/websites/) e
+  [Mobbin](https://mobbin.com/). Detalhes em [`conceitos.md`](conceitos.md).
 
 ## Instalar
 
@@ -80,7 +98,8 @@ projeto manda.
 │   ├── agents/revisor.md
 │   └── hooks/                        # carrega as regras e o índice de decisões
 ├── decisoes/                         # registros de decisão
-└── modelos/                          # arquivos iniciais de projeto e o modelo de decisão
+├── modelos/                          # arquivos iniciais de projeto e o modelo de decisão
+└── conceitos.md                      # de onde vem cada regra, e onde ler mais
 ```
 
 Nasceu dentro do [Career Gap](https://career-gap-tcc.vercel.app), um TCC sobre o que estudar
