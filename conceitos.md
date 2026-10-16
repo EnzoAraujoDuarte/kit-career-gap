@@ -64,6 +64,7 @@ Dois princípios bastam para quem está começando:
 | Ferramenta | Para quê | Onde |
 | --- | --- | --- |
 | **Context7** | Documentação atual da biblioteca dentro do assistente, em vez de resposta de versão velha | vem no plugin `essencial`; [upstash/context7](https://github.com/upstash/context7) |
+| **ai-memory** | Memória entre sessões e entre agentes: hooks capturam cada sessão, um servidor compila tudo em páginas Markdown versionadas no Git do projeto e a próxima sessão abre com um "de onde paramos", no Claude Code, Codex, Cursor, Gemini CLI e outros. Sem chamar modelo por padrão. Projeto do Fabio Akita, MIT | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) |
 | **impeccable** | Skill de design: audita contraste, hierarquia, estados, responsivo e os clichês de interface gerada | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) |
 | **superpowers** | Biblioteca de skills e método de trabalho: brainstorming antes de codar, TDD, depuração sistemática, planos | [obra/superpowers](https://github.com/obra/superpowers) |
 | **Skills da Anthropic** | `frontend-design` para interface com personalidade, `skill-creator` para escrever as suas, e as de documento (docx, pdf, pptx, xlsx) | [anthropics/skills](https://github.com/anthropics/skills) |
