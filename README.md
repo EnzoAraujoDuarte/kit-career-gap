@@ -29,6 +29,10 @@ As que o autor usa no trabalho, além do que vem no plugin:
   se audita (contraste, hierarquia, estados, responsivo, clichês de interface gerada).
 - [superpowers](https://github.com/obra/superpowers): biblioteca de skills e método de trabalho,
   com brainstorming antes de codar, TDD e depuração sistemática.
+- [ai-memory](https://github.com/akitaonrails/ai-memory), do Fabio Akita: memória entre sessões e
+  entre agentes. Captura cada sessão por hooks, guarda em Markdown versionado no Git do projeto e
+  abre a próxima com um "de onde paramos", mesmo trocando de Claude Code para Codex ou Cursor.
+  Não é plugin do Claude Code: instala-se com o instalador oficial e `ai-memory setup`.
 - [Skills da Anthropic](https://github.com/anthropics/skills): `frontend-design`, `skill-creator`
   e as de documento.
 - [Marketplace oficial](https://github.com/anthropics/claude-plugins-official): plugins mantidos
